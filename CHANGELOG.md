@@ -9,3 +9,4 @@
 - [2025-08-16 14:17] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-08-16 17:02] feat: implement randomized Prim's maze generation algorithm
 - [2025-08-16 17:54] refactor: extract wall rendering routines into visualizer.c
+- [2025-08-16 21:32] refactor: extract wall rendering routines into visualizer.c
