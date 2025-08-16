@@ -8,3 +8,4 @@
 - [2025-08-16 10:51] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-08-16 14:17] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-08-16 17:02] feat: implement randomized Prim's maze generation algorithm
+- [2025-08-16 17:54] refactor: extract wall rendering routines into visualizer.c
