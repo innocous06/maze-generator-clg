@@ -15,3 +15,4 @@
 - [2025-08-17 14:07] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-08-17 19:03] style: enforce K&R C indentation and format header guards
 - [2025-08-17 19:24] feat: support custom width and height parameters from CLI args
+- [2025-08-17 21:13] feat: add export to plain text ASCII file functionality
