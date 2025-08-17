@@ -12,3 +12,4 @@
 - [2025-08-16 21:32] refactor: extract wall rendering routines into visualizer.c
 - [2025-08-17 11:12] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-08-17 13:26] feat: support custom width and height parameters from CLI args
+- [2025-08-17 14:07] test: add unit tests for Dijkstra shortest-path maze solver
