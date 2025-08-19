@@ -17,3 +17,4 @@
 - [2025-08-17 19:24] feat: support custom width and height parameters from CLI args
 - [2025-08-17 21:13] feat: add export to plain text ASCII file functionality
 - [2025-08-19 10:30] chore: add Makefile with clean, build, and test targets
+- [2025-08-19 10:52] feat: add ASCII terminal visualizer with step-by-step rendering
