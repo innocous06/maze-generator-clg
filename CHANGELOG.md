@@ -19,3 +19,4 @@
 - [2025-08-19 10:30] chore: add Makefile with clean, build, and test targets
 - [2025-08-19 10:52] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-08-19 11:45] fix: resolve memory leak on grid deallocation
+- [2025-08-19 13:21] fix: resolve memory leak on grid deallocation
