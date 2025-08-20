@@ -28,3 +28,18 @@ Point dequeue(Queue *q) { return q->data[q->front++]; }
 void initMaze(Maze *m, int r, int c) {
  m->rows = r; m->cols = c;
  for(int i = 0; i < r; i++)
+ for(int j = 0; j < c; j++)
+ m->grid[i][j] = WALL;
+}
+void display(Maze *m) {
+ printf("\n");
+ for(int i = 0; i < m->rows; i++) {
+ printf(" ");
+ for(int j = 0; j < m->cols; j++)
+ printf("%c ", m->grid[i][j]);
+ printf("\n");
+ }
+ printf("\n");
+}
+int valid(Maze *m, int r, int c) {
+ return r > 0 && r < m->rows-1 && c > 0 && c < m->cols-1;
