@@ -21,3 +21,4 @@
 - [2025-08-19 11:45] fix: resolve memory leak on grid deallocation
 - [2025-08-19 13:21] fix: resolve memory leak on grid deallocation
 - [2025-08-19 18:56] feat: add export to plain text ASCII file functionality
+- [2025-08-20 12:42] fix: correct off-by-one boundary check in Kruskal's disjoint-set
