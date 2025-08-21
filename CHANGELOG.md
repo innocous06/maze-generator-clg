@@ -25,3 +25,4 @@
 - [2025-08-20 18:16] style: enforce K&R C indentation and format header guards
 - [2025-08-21 11:08] test: add automated test runner script with randomized seed checks
 - [2025-08-21 13:48] style: enforce K&R C indentation and format header guards
+- [2025-08-21 21:43] fix: resolve memory leak on grid deallocation
