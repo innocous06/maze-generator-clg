@@ -58,3 +58,23 @@ void carve(Maze *m, int r, int c) {
  if(valid(m, nr, nc) && m->grid[nr][nc] == WALL) {
  int cnt = 0, dr[] = {-1,1,0,0}, dc[] = {0,0,-1,1};
  for(j = 0; j < 4; j++)
+ if(valid(m, nr+dr[j], nc+dc[j]) && m->grid[nr+dr[j]][nc+dc[j]] == PATH) cnt++;
+ if(cnt <= 1) {
+ m->grid[r + dir[i][0]/2][c + dir[i][1]/2] = PATH;
+ carve(m, nr, nc);
+ }
+ }
+ }
+}
+void addPaths(Maze *m, int n) {
+ for(int i = 0, att = 0; i < n && att < n*10; att++) {
+ int r = 2 + rand() % (m->rows-4), c = 2 + rand() % (m->cols-4);
+ if(m->grid[r][c] == WALL) {
+ int cnt = 0;
+ if(valid(m,r-1,c) && m->grid[r-1][c]==PATH) cnt++;
+ if(valid(m,r+1,c) && m->grid[r+1][c]==PATH) cnt++;
+ if(valid(m,r,c-1) && m->grid[r][c-1]==PATH) cnt++;
+ if(valid(m,r,c+1) && m->grid[r][c+1]==PATH) cnt++;
+ if(cnt == 2) { m->grid[r][c] = PATH; i++; }
+ }
+ }
