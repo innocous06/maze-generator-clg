@@ -43,3 +43,18 @@ void display(Maze *m) {
 }
 int valid(Maze *m, int r, int c) {
  return r > 0 && r < m->rows-1 && c > 0 && c < m->cols-1;
+}
+void carve(Maze *m, int r, int c) {
+ int dir[4][2] = {{-2,0},{0,2},{2,0},{0,-2}}, i, j, nr, nc;
+ m->grid[r][c] = PATH;
+ for(i = 3; i > 0; i--) {
+ j = rand() % (i+1);
+ int tr = dir[i][0], tc = dir[i][1];
+ dir[i][0] = dir[j][0]; dir[i][1] = dir[j][1];
+ dir[j][0] = tr; dir[j][1] = tc;
+ }
+ for(i = 0; i < 4; i++) {
+ nr = r + dir[i][0]; nc = c + dir[i][1];
+ if(valid(m, nr, nc) && m->grid[nr][nc] == WALL) {
+ int cnt = 0, dr[] = {-1,1,0,0}, dc[] = {0,0,-1,1};
+ for(j = 0; j < 4; j++)
