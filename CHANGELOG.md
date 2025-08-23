@@ -27,3 +27,4 @@
 - [2025-08-21 13:48] style: enforce K&R C indentation and format header guards
 - [2025-08-21 21:43] fix: resolve memory leak on grid deallocation
 - [2025-08-23 12:33] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-08-23 12:38] test: add automated test runner script with randomized seed checks
