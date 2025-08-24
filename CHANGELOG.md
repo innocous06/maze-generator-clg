@@ -38,3 +38,4 @@
 - [2025-08-24 15:35] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-08-24 19:21] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-08-24 19:57] fix: resolve memory leak on grid deallocation
+- [2025-08-24 21:49] refactor: optimize 2D grid memory allocation using flat 1D buffer
