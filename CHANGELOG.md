@@ -36,3 +36,4 @@
 - [2025-08-24 13:19] test: add automated test runner script with randomized seed checks
 - [2025-08-24 13:37] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-08-24 15:35] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-08-24 19:21] fix: correct off-by-one boundary check in Kruskal's disjoint-set
