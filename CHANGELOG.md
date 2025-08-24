@@ -35,3 +35,4 @@
 - [2025-08-23 21:01] style: enforce K&R C indentation and format header guards
 - [2025-08-24 13:19] test: add automated test runner script with randomized seed checks
 - [2025-08-24 13:37] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-24 15:35] feat: add ASCII terminal visualizer with step-by-step rendering
