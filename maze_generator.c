@@ -78,3 +78,18 @@ void addPaths(Maze *m, int n) {
  if(cnt == 2) { m->grid[r][c] = PATH; i++; }
  }
  }
+}
+void generate(Maze *m, int r, int c) {
+ if(r%2==0) r++; if(c%2==0) c++;
+ initMaze(m, r, c);
+ carve(m, 2, 2);
+ addPaths(m, (r*c)/50);
+ m->startRow = 2; m->startCol = 2;
+ m->grid[m->startRow][m->startCol] = START;
+ int br = 2, bc = 2, md = 0;
+ for(int i = r-3; i > r/2; i--)
+ for(int j = c-3; j > c/2; j--)
+ if(m->grid[i][j] == PATH) {
+ int d = abs(i-m->startRow) + abs(j-m->startCol);
+ if(d > md) { md = d; br = i; bc = j; }
+ }
