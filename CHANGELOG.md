@@ -40,3 +40,4 @@
 - [2025-08-24 19:57] fix: resolve memory leak on grid deallocation
 - [2025-08-24 21:49] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-08-24 23:54] chore: add Makefile with clean, build, and test targets
+- [2025-08-25 17:00] perf: bitmask wall representation for fast cell boundary lookups
