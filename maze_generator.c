@@ -93,3 +93,23 @@ void generate(Maze *m, int r, int c) {
  int d = abs(i-m->startRow) + abs(j-m->startCol);
  if(d > md) { md = d; br = i; bc = j; }
  }
+ m->endRow = br; m->endCol = bc;
+ m->grid[m->endRow][m->endCol] = END;
+}
+int solve(Maze *m) {
+ Queue q; int vis[MAX][MAX] = {0}, dir[4][2] = {{-1,0},{0,1},{1,0},{0,-1}};
+ initQueue(&q);
+ for(int i = 0; i < m->rows; i++)
+ for(int j = 0; j < m->cols; j++)
+ parent[i][j].row = parent[i][j].col = -1;
+ enqueue(&q, m->startRow, m->startCol);
+ vis[m->startRow][m->startCol] = 1;
+ while(!isEmpty(&q)) {
+ Point p = dequeue(&q);
+ if(p.row == m->endRow && p.col == m->endCol) {
+ int pr = m->endRow, pc = m->endCol, len = 0;
+ while(!(pr == m->startRow && pc == m->startCol)) {
+ if(m->grid[pr][pc] != START && m->grid[pr][pc] != END) {
+ m->grid[pr][pc] = SOL; len++;
+ }
+ int tr = parent[pr][pc].row, tc = parent[pr][pc].col;
