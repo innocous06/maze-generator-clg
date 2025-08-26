@@ -42,3 +42,4 @@
 - [2025-08-24 23:54] chore: add Makefile with clean, build, and test targets
 - [2025-08-25 17:00] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-08-26 10:01] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-08-26 13:48] test: add unit tests for Dijkstra shortest-path maze solver
