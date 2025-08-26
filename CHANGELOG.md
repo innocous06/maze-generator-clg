@@ -46,3 +46,4 @@
 - [2025-08-26 14:52] docs: add algorithmic time complexity analysis in README
 - [2025-08-26 17:28] refactor: extract wall rendering routines into visualizer.c
 - [2025-08-26 18:53] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-26 21:58] feat: support custom width and height parameters from CLI args
