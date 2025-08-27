@@ -113,3 +113,18 @@ int solve(Maze *m) {
  m->grid[pr][pc] = SOL; len++;
  }
  int tr = parent[pr][pc].row, tc = parent[pr][pc].col;
+ pr = tr; pc = tc;
+ }
+ return len;
+ }
+ for(int i = 0; i < 4; i++) {
+ int nr = p.row + dir[i][0], nc = p.col + dir[i][1];
+ if(valid(m,nr,nc) && !vis[nr][nc] && (m->grid[nr][nc]==PATH || m->grid[nr][nc]==END)) {
+ vis[nr][nc] = 1;
+ parent[nr][nc].row = p.row; parent[nr][nc].col = p.col;
+ enqueue(&q, nr, nc);
+ }
+ }
+ }
+ return -1;
+}
