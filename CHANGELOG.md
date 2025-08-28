@@ -52,3 +52,4 @@
 - [2025-08-27 11:38] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-08-28 13:31] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-08-28 15:40] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-28 20:31] test: add automated test runner script with randomized seed checks
