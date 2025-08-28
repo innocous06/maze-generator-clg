@@ -50,3 +50,4 @@
 - [2025-08-27 09:42] docs: add algorithmic time complexity analysis in README
 - [2025-08-27 09:47] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-08-27 11:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-08-28 13:31] perf: bitmask wall representation for fast cell boundary lookups
