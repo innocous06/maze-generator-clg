@@ -55,3 +55,4 @@
 - [2025-08-28 20:31] test: add automated test runner script with randomized seed checks
 - [2025-08-28 20:35] feat: implement randomized Prim's maze generation algorithm
 - [2025-08-28 21:02] docs: add algorithmic time complexity analysis in README
+- [2025-08-29 11:35] style: enforce K&R C indentation and format header guards
