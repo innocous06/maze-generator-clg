@@ -5,3 +5,4 @@
 - [2025-08-22 13:10] feat: add recursive backtracking depth-first search generator
 - [2025-08-24 18:15] refactor: optimize grid memory allocation with single flat 1D buffer
 - [2025-08-27 18:09] fix: resolve segmentation fault in recursive solver call stack
+- [2025-08-29 14:20] feat: add ASCII terminal visualizer with ANSI escape color rendering
