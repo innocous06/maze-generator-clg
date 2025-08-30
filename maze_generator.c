@@ -128,3 +128,23 @@ int solve(Maze *m) {
  }
  return -1;
 }
+void showSolution(Maze *m) {
+ Maze temp = *m;
+ printf("\nFinding shortest path...\n");
+ int len = solve(&temp);
+ if(len >= 0) {
+ printf("Solution found\n\nS=Start, E=End, *=Shortest Path\n");
+ display(&temp);
+ printf("Path length: %d steps\n", len+1);
+ } else printf("No solution found\n");
+}
+void manual(Maze *m) {
+ int vis[MAX][MAX] = {0}, cr = m->startRow, cc = m->startCol, moves = 0;
+ char move;
+ for(int i = 0; i < m->rows; i++)
+ for(int j = 0; j < m->cols; j++) vis[i][j] = 0;
+ vis[cr][cc] = 1;
+ printf("\nManual Mode\nW=Up, S=Down, A=Left, D=Right, Q=Quit\nPress Enter...");
+ getchar();
+ while(1) {
+ system("clear || cls");
