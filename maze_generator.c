@@ -148,3 +148,23 @@ void manual(Maze *m) {
  getchar();
  while(1) {
  system("clear || cls");
+ printf("\nPosition: (%d,%d) | Moves: %d\n\n", cr, cc, moves);
+ for(int i = 0; i < m->rows; i++) {
+ printf(" ");
+ for(int j = 0; j < m->cols; j++) {
+ if(i==cr && j==cc) printf("%c ", PLAYER);
+ else if(vis[i][j] && m->grid[i][j]!=START && m->grid[i][j]!=END) printf(". ");
+ else printf("%c ", m->grid[i][j]);
+ }
+ printf("\n");
+ }
+ if(cr == m->endRow && cc == m->endCol) {
+ printf("\nYou reached the exit in %d moves!\n", moves);
+ printf("See optimal solution? (y/n): ");
+ scanf(" %c", &move);
+ if(move=='y' || move=='Y') showSolution(m);
+ break;
+ }
+ printf("\nMove: ");
+ scanf(" %c", &move);
+ int nr = cr, nc = cc;
