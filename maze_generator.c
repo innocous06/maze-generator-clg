@@ -168,3 +168,18 @@ void manual(Maze *m) {
  printf("\nMove: ");
  scanf(" %c", &move);
  int nr = cr, nc = cc;
+ if(move=='w' || move=='W') nr--;
+ else if(move=='s' || move=='S') nr++;
+ else if(move=='a' || move=='A') nc--;
+ else if(move=='d' || move=='D') nc++;
+ else if(move=='q' || move=='Q') { printf("\nQuitting\n"); return; }
+ else { printf("\nInvalid\nPress Enter..."); getchar(); getchar(); continue; }
+ if(valid(m,nr,nc) && m->grid[nr][nc]!=WALL) {
+ vis[nr][nc] = 1; cr = nr; cc = nc; moves++;
+ } else { printf("\nCannot move there\nPress Enter..."); getchar(); getchar(); }
+ }
+}
+void menu() {
+ printf("\nMaze Generator and Solver\n\n1. Generate Maze\n2. Display Maze\n3. Find Shortest Path\n4. Manual Mode\n5. Quick Demo\n6. Exit\n\nChoice: ");
+}
+int main() {
