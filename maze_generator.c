@@ -183,3 +183,18 @@ void menu() {
  printf("\nMaze Generator and Solver\n\n1. Generate Maze\n2. Display Maze\n3. Find Shortest Path\n4. Manual Mode\n5. Quick Demo\n6. Exit\n\nChoice: ");
 }
 int main() {
+ Maze m; int ch, r, c, gen = 0;
+ srand(time(NULL));
+ while(1) {
+ menu();
+ scanf("%d", &ch);
+ switch(ch) {
+ case 1:
+ printf("\nRows (11-49): "); scanf("%d", &r);
+ printf("Columns (11-49): "); scanf("%d", &c);
+ if(r<11) r=11; if(c<11) c=11; if(r>49) r=49; if(c>49) c=49;
+ printf("\nGenerating maze...\n");
+ generate(&m, r, c); gen = 1;
+ printf("Done\n"); display(&m);
+ break;
+ case 2: gen ? display(&m) : printf("\nNo maze generated\n"); break;
