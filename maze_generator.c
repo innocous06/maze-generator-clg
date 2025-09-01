@@ -198,3 +198,19 @@ int main() {
  printf("Done\n"); display(&m);
  break;
  case 2: gen ? display(&m) : printf("\nNo maze generated\n"); break;
+ case 3: gen ? showSolution(&m) : printf("\nNo maze generated\n"); break;
+ case 4: gen ? manual(&m) : printf("\nNo maze generated\n"); break;
+ case 5:
+ printf("\nGenerating demo maze...\n");
+ generate(&m, 21, 21); gen = 1;
+ display(&m);
+ printf("\nPress Enter for solution..."); getchar(); getchar();
+ showSolution(&m);
+ break;
+ case 6: printf("\nGoodbye\n"); exit(0);
+ default: printf("\nInvalid choice\n");
+ }
+ printf("\nPress Enter..."); getchar(); getchar();
+ }
+ return 0;
+}
