@@ -1,0 +1,20 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99
+TARGET = maze
+SRC = maze_generator.c
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
+
+debug:
+	$(CC) $(CFLAGS) -g $(SRC) -o $(TARGET)_debug
+
+.PHONY: all run clean debug
