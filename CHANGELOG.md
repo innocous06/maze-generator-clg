@@ -7,3 +7,4 @@
 - [2025-08-27 18:09] fix: resolve segmentation fault in recursive solver call stack
 - [2025-08-29 14:20] feat: add ASCII terminal visualizer with ANSI escape color rendering
 - [2025-09-01 11:24] feat: implement Dijkstra shortest-path solver from entrance to exit
+- [2025-09-03 13:38] perf: bitmask wall representation for fast 4-neighbor boundary lookups
