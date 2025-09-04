@@ -64,3 +64,4 @@
 - [2025-09-04 09:25] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-04 10:08] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-04 11:23] fix: resolve memory leak on grid deallocation
+- [2025-09-04 15:18] style: enforce K&R C indentation and format header guards
