@@ -65,3 +65,4 @@
 - [2025-09-04 10:08] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-04 11:23] fix: resolve memory leak on grid deallocation
 - [2025-09-04 15:18] style: enforce K&R C indentation and format header guards
+- [2025-09-04 16:30] refactor: optimize 2D grid memory allocation using flat 1D buffer
