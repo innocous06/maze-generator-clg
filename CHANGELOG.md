@@ -61,3 +61,4 @@
 - [2025-08-31 09:19] style: enforce K&R C indentation and format header guards
 - [2025-09-02 09:50] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-02 20:24] test: add automated test runner script with randomized seed checks
+- [2025-09-04 09:25] perf: reduce stack depth by converting recursive solver to iterative
