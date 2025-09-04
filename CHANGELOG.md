@@ -67,3 +67,4 @@
 - [2025-09-04 15:18] style: enforce K&R C indentation and format header guards
 - [2025-09-04 16:30] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-04 16:33] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-04 18:27] docs: add algorithmic time complexity analysis in README
