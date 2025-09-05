@@ -74,3 +74,4 @@
 - [2025-09-05 11:51] chore: add Makefile with clean, build, and test targets
 - [2025-09-05 13:26] docs: add algorithmic time complexity analysis in README
 - [2025-09-05 16:06] fix: resolve memory leak on grid deallocation
+- [2025-09-05 16:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
