@@ -72,3 +72,4 @@
 - [2025-09-05 11:09] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-05 11:16] fix: resolve memory leak on grid deallocation
 - [2025-09-05 11:51] chore: add Makefile with clean, build, and test targets
+- [2025-09-05 13:26] docs: add algorithmic time complexity analysis in README
