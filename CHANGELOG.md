@@ -71,3 +71,4 @@
 - [2025-09-04 20:14] style: enforce K&R C indentation and format header guards
 - [2025-09-05 11:09] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-05 11:16] fix: resolve memory leak on grid deallocation
+- [2025-09-05 11:51] chore: add Makefile with clean, build, and test targets
