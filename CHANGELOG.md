@@ -8,3 +8,4 @@
 - [2025-08-29 14:20] feat: add ASCII terminal visualizer with ANSI escape color rendering
 - [2025-09-01 11:24] feat: implement Dijkstra shortest-path solver from entrance to exit
 - [2025-09-03 13:38] perf: bitmask wall representation for fast 4-neighbor boundary lookups
+- [2025-09-06 12:13] fix: correct off-by-one boundary check in Kruskal's disjoint-set forest
