@@ -79,3 +79,4 @@
 - [2025-09-07 15:42] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-07 16:24] fix: resolve memory leak on grid deallocation
 - [2025-09-07 19:03] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-07 20:25] feat: support custom width and height parameters from CLI args
