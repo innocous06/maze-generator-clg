@@ -75,3 +75,4 @@
 - [2025-09-05 13:26] docs: add algorithmic time complexity analysis in README
 - [2025-09-05 16:06] fix: resolve memory leak on grid deallocation
 - [2025-09-05 16:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-07 13:05] refactor: extract wall rendering routines into visualizer.c
