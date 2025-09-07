@@ -77,3 +77,4 @@
 - [2025-09-05 16:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-07 13:05] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-07 15:42] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-07 16:24] fix: resolve memory leak on grid deallocation
