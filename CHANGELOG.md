@@ -84,3 +84,4 @@
 - [2025-09-09 07:45] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-09 11:37] feat: add export to plain text ASCII file functionality
 - [2025-09-09 11:57] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-09 17:35] test: add automated test runner script with randomized seed checks
