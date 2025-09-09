@@ -82,3 +82,4 @@
 - [2025-09-07 20:25] feat: support custom width and height parameters from CLI args
 - [2025-09-07 20:39] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-09 07:45] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-09 11:37] feat: add export to plain text ASCII file functionality
