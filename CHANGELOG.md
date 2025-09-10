@@ -91,3 +91,4 @@
 - [2025-09-10 14:22] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-10 15:14] feat: add export to plain text ASCII file functionality
 - [2025-09-10 18:36] docs: add algorithmic time complexity analysis in README
+- [2025-09-10 20:58] feat: add export to plain text ASCII file functionality
