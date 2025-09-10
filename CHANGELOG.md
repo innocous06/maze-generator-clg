@@ -88,3 +88,4 @@
 - [2025-09-09 21:05] test: add automated test runner script with randomized seed checks
 - [2025-09-10 07:58] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-10 09:50] feat: add export to plain text ASCII file functionality
+- [2025-09-10 14:22] refactor: extract wall rendering routines into visualizer.c
