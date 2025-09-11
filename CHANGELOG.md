@@ -97,3 +97,4 @@
 - [2025-09-11 12:17] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-11 12:58] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-09-11 14:09] docs: add algorithmic time complexity analysis in README
+- [2025-09-11 16:12] feat: add ASCII terminal visualizer with step-by-step rendering
