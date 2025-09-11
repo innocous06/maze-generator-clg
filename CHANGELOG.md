@@ -10,3 +10,4 @@
 - [2025-09-03 13:38] perf: bitmask wall representation for fast 4-neighbor boundary lookups
 - [2025-09-06 12:13] fix: correct off-by-one boundary check in Kruskal's disjoint-set forest
 - [2025-09-09 18:48] feat: add custom maze width and height CLI argument parsing
+- [2025-09-11 10:20] feat: add seedable pseudo-random number generator for reproducible mazes
