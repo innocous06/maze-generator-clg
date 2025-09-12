@@ -4,3 +4,4 @@
 - [2025-08-29 19:44] chore: add Makefile with clean, build, and test targets
 - [2025-08-30 13:13] chore: add Makefile with clean, build, and test targets
 - [2025-09-11 18:42] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-12 19:45] test: add unit tests for Dijkstra shortest-path maze solver
