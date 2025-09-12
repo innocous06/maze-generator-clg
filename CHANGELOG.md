@@ -99,3 +99,4 @@
 - [2025-09-11 14:09] docs: add algorithmic time complexity analysis in README
 - [2025-09-11 16:12] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-12 13:57] chore: add Makefile with clean, build, and test targets
+- [2025-09-12 19:52] fix: resolve memory leak on grid deallocation
