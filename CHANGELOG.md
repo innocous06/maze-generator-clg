@@ -100,3 +100,4 @@
 - [2025-09-11 16:12] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-12 13:57] chore: add Makefile with clean, build, and test targets
 - [2025-09-12 19:52] fix: resolve memory leak on grid deallocation
+- [2025-09-13 12:53] refactor: extract wall rendering routines into visualizer.c
