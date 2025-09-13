@@ -102,3 +102,4 @@
 - [2025-09-12 19:52] fix: resolve memory leak on grid deallocation
 - [2025-09-13 12:53] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-13 18:27] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-13 19:10] test: add automated test runner script with randomized seed checks
