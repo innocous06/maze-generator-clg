@@ -101,3 +101,4 @@
 - [2025-09-12 13:57] chore: add Makefile with clean, build, and test targets
 - [2025-09-12 19:52] fix: resolve memory leak on grid deallocation
 - [2025-09-13 12:53] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-13 18:27] fix: resolve segmentation fault in recursive backtracker stack
