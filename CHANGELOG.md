@@ -105,3 +105,4 @@
 - [2025-09-13 19:10] test: add automated test runner script with randomized seed checks
 - [2025-09-13 19:35] feat: add export to plain text ASCII file functionality
 - [2025-09-14 09:57] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-14 11:40] chore: add Makefile with clean, build, and test targets
