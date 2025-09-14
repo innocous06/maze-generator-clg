@@ -107,3 +107,4 @@
 - [2025-09-14 09:57] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-14 11:40] chore: add Makefile with clean, build, and test targets
 - [2025-09-14 16:28] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-14 17:55] refactor: optimize 2D grid memory allocation using flat 1D buffer
