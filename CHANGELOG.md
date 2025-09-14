@@ -109,3 +109,4 @@
 - [2025-09-14 16:28] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-14 17:55] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-14 20:19] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-14 21:08] refactor: optimize 2D grid memory allocation using flat 1D buffer
