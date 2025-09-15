@@ -112,3 +112,4 @@
 - [2025-09-14 21:08] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-15 09:52] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-09-15 10:53] feat: support custom width and height parameters from CLI args
+- [2025-09-15 11:30] fix: correct off-by-one boundary check in Kruskal's disjoint-set
