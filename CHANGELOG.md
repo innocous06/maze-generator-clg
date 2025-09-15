@@ -8,3 +8,4 @@
 - [2025-09-13 17:21] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-13 20:06] feat: add export to plain text ASCII file functionality
 - [2025-09-14 11:21] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-15 20:16] test: add unit tests for Dijkstra shortest-path maze solver
