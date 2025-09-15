@@ -114,3 +114,4 @@
 - [2025-09-15 10:53] feat: support custom width and height parameters from CLI args
 - [2025-09-15 11:30] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-09-15 15:45] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-15 17:38] chore: add Makefile with clean, build, and test targets
