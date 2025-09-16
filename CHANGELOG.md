@@ -12,3 +12,4 @@
 - [2025-09-09 18:48] feat: add custom maze width and height CLI argument parsing
 - [2025-09-11 10:20] feat: add seedable pseudo-random number generator for reproducible mazes
 - [2025-09-14 16:19] test: add automated test runner for verifying maze solvability
+- [2025-09-16 19:27] chore: add Makefile with clean, debug, and release build targets
