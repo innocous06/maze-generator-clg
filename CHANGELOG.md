@@ -120,3 +120,4 @@
 - [2025-09-17 10:49] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-09-17 10:51] test: add automated test runner script with randomized seed checks
 - [2025-09-17 11:43] feat: support custom width and height parameters from CLI args
+- [2025-09-17 12:13] fix: correct off-by-one boundary check in Kruskal's disjoint-set
