@@ -124,3 +124,4 @@
 - [2025-09-17 13:31] feat: add export to plain text ASCII file functionality
 - [2025-09-17 16:04] feat: support custom width and height parameters from CLI args
 - [2025-09-17 17:04] feat: support custom width and height parameters from CLI args
+- [2025-09-17 17:35] fix: resolve memory leak on grid deallocation
