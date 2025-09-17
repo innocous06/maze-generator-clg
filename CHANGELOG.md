@@ -128,3 +128,4 @@
 - [2025-09-17 18:13] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-17 19:33] test: add automated test runner script with randomized seed checks
 - [2025-09-17 19:49] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-17 20:12] feat: add ASCII terminal visualizer with step-by-step rendering
