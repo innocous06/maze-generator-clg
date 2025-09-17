@@ -125,3 +125,4 @@
 - [2025-09-17 16:04] feat: support custom width and height parameters from CLI args
 - [2025-09-17 17:04] feat: support custom width and height parameters from CLI args
 - [2025-09-17 17:35] fix: resolve memory leak on grid deallocation
+- [2025-09-17 18:13] fix: resolve segmentation fault in recursive backtracker stack
