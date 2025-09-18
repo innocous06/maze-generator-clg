@@ -131,3 +131,4 @@
 - [2025-09-17 20:12] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-18 09:52] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-18 10:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-18 12:15] refactor: extract wall rendering routines into visualizer.c
