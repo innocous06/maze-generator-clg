@@ -59,4 +59,4 @@
 <!-- ref: 324 - 2026-03-28 -->
 <!-- ref: 332 - 2026-05-30 -->
 
-<!-- memory layout optimized -->
+<!-- tail call optimization notes -->
