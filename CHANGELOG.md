@@ -13,3 +13,4 @@
 - [2025-09-11 10:20] feat: add seedable pseudo-random number generator for reproducible mazes
 - [2025-09-14 16:19] test: add automated test runner for verifying maze solvability
 - [2025-09-16 19:27] chore: add Makefile with clean, debug, and release build targets
+- [2025-09-19 10:36] style: enforce K&R C formatting and header include guards
