@@ -133,3 +133,4 @@
 - [2025-09-18 10:38] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-18 12:15] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-20 19:28] docs: add algorithmic time complexity analysis in README
+- [2025-09-21 18:55] chore: add Makefile with clean, build, and test targets
