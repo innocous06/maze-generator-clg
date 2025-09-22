@@ -134,3 +134,4 @@
 - [2025-09-18 12:15] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-20 19:28] docs: add algorithmic time complexity analysis in README
 - [2025-09-21 18:55] chore: add Makefile with clean, build, and test targets
+- [2025-09-22 09:07] fix: resolve memory leak on grid deallocation
