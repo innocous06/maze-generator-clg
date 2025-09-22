@@ -12,3 +12,4 @@
 - [2025-09-18 19:30] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-19 20:04] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-22 10:25] style: enforce K&R C indentation and format header guards
+- [2025-09-22 17:45] fix: resolve segmentation fault in recursive backtracker stack
