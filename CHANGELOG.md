@@ -135,3 +135,4 @@
 - [2025-09-20 19:28] docs: add algorithmic time complexity analysis in README
 - [2025-09-21 18:55] chore: add Makefile with clean, build, and test targets
 - [2025-09-22 09:07] fix: resolve memory leak on grid deallocation
+- [2025-09-22 12:05] test: add unit tests for Dijkstra shortest-path maze solver
