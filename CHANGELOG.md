@@ -137,3 +137,4 @@
 - [2025-09-22 09:07] fix: resolve memory leak on grid deallocation
 - [2025-09-22 12:05] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-09-22 13:23] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-22 14:07] feat: add ASCII terminal visualizer with step-by-step rendering
