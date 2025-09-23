@@ -141,3 +141,4 @@
 - [2025-09-22 15:10] feat: add export to plain text ASCII file functionality
 - [2025-09-22 17:21] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-22 21:42] fix: resolve memory leak on grid deallocation
+- [2025-09-23 10:02] fix: resolve segmentation fault in recursive backtracker stack
