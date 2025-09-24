@@ -144,3 +144,4 @@
 - [2025-09-23 10:02] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-23 12:58] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-23 15:23] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-09-24 13:50] chore: add Makefile with clean, build, and test targets
