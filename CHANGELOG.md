@@ -146,3 +146,4 @@
 - [2025-09-23 15:23] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-09-24 13:50] chore: add Makefile with clean, build, and test targets
 - [2025-09-24 15:20] feat: support custom width and height parameters from CLI args
+- [2025-09-24 18:37] docs: add algorithmic time complexity analysis in README
