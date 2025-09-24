@@ -147,3 +147,4 @@
 - [2025-09-24 13:50] chore: add Makefile with clean, build, and test targets
 - [2025-09-24 15:20] feat: support custom width and height parameters from CLI args
 - [2025-09-24 18:37] docs: add algorithmic time complexity analysis in README
+- [2025-09-24 20:06] perf: bitmask wall representation for fast cell boundary lookups
