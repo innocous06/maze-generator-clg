@@ -149,3 +149,4 @@
 - [2025-09-24 18:37] docs: add algorithmic time complexity analysis in README
 - [2025-09-24 20:06] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-24 21:13] fix: resolve memory leak on grid deallocation
+- [2025-09-24 23:08] perf: bitmask wall representation for fast cell boundary lookups
