@@ -148,3 +148,4 @@
 - [2025-09-24 15:20] feat: support custom width and height parameters from CLI args
 - [2025-09-24 18:37] docs: add algorithmic time complexity analysis in README
 - [2025-09-24 20:06] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-24 21:13] fix: resolve memory leak on grid deallocation
