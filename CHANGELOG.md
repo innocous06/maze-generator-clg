@@ -150,3 +150,4 @@
 - [2025-09-24 20:06] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-24 21:13] fix: resolve memory leak on grid deallocation
 - [2025-09-24 23:08] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-25 21:06] style: enforce K&R C indentation and format header guards
