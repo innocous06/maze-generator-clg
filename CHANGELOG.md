@@ -158,3 +158,4 @@
 - [2025-09-26 16:53] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-09-26 18:55] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-26 21:53] docs: add algorithmic time complexity analysis in README
+- [2025-09-26 22:50] feat: add ASCII terminal visualizer with step-by-step rendering
