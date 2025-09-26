@@ -152,3 +152,4 @@
 - [2025-09-24 23:08] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-25 21:06] style: enforce K&R C indentation and format header guards
 - [2025-09-25 21:43] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-26 12:55] perf: reduce stack depth by converting recursive solver to iterative
