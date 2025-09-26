@@ -156,3 +156,4 @@
 - [2025-09-26 13:06] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-26 15:39] docs: add algorithmic time complexity analysis in README
 - [2025-09-26 16:53] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-26 18:55] refactor: extract wall rendering routines into visualizer.c
