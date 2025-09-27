@@ -169,3 +169,4 @@
 - [2025-09-27 17:15] docs: add algorithmic time complexity analysis in README
 - [2025-09-27 21:29] fix: resolve memory leak on grid deallocation
 - [2025-09-27 22:40] fix: resolve memory leak on grid deallocation
+- [2025-09-27 23:46] chore: add Makefile with clean, build, and test targets
