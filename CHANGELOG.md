@@ -161,3 +161,4 @@
 - [2025-09-26 22:50] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-27 09:39] fix: resolve memory leak on grid deallocation
 - [2025-09-27 11:25] fix: resolve memory leak on grid deallocation
+- [2025-09-27 11:44] style: enforce K&R C indentation and format header guards
