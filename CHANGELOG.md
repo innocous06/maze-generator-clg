@@ -166,3 +166,4 @@
 - [2025-09-27 13:26] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-27 14:26] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-09-27 17:08] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-27 17:15] docs: add algorithmic time complexity analysis in README
