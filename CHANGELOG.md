@@ -159,3 +159,4 @@
 - [2025-09-26 18:55] refactor: extract wall rendering routines into visualizer.c
 - [2025-09-26 21:53] docs: add algorithmic time complexity analysis in README
 - [2025-09-26 22:50] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-27 09:39] fix: resolve memory leak on grid deallocation
