@@ -168,3 +168,4 @@
 - [2025-09-27 17:08] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-09-27 17:15] docs: add algorithmic time complexity analysis in README
 - [2025-09-27 21:29] fix: resolve memory leak on grid deallocation
+- [2025-09-27 22:40] fix: resolve memory leak on grid deallocation
