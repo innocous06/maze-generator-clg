@@ -164,3 +164,4 @@
 - [2025-09-27 11:44] style: enforce K&R C indentation and format header guards
 - [2025-09-27 13:04] style: enforce K&R C indentation and format header guards
 - [2025-09-27 13:26] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-27 14:26] test: add unit tests for Dijkstra shortest-path maze solver
