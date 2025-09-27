@@ -163,3 +163,4 @@
 - [2025-09-27 11:25] fix: resolve memory leak on grid deallocation
 - [2025-09-27 11:44] style: enforce K&R C indentation and format header guards
 - [2025-09-27 13:04] style: enforce K&R C indentation and format header guards
+- [2025-09-27 13:26] refactor: extract wall rendering routines into visualizer.c
