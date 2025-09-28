@@ -14,3 +14,4 @@
 - [2025-09-22 10:25] style: enforce K&R C indentation and format header guards
 - [2025-09-22 17:45] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-25 20:04] feat: add export to plain text ASCII file functionality
+- [2025-09-28 16:56] feat: add export to plain text ASCII file functionality
