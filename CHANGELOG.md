@@ -170,3 +170,4 @@
 - [2025-09-27 21:29] fix: resolve memory leak on grid deallocation
 - [2025-09-27 22:40] fix: resolve memory leak on grid deallocation
 - [2025-09-27 23:46] chore: add Makefile with clean, build, and test targets
+- [2025-09-29 10:43] perf: reduce stack depth by converting recursive solver to iterative
