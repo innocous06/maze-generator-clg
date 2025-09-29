@@ -173,3 +173,4 @@
 - [2025-09-29 10:43] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-29 10:49] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-29 11:40] fix: resolve memory leak on grid deallocation
+- [2025-09-29 12:00] perf: bitmask wall representation for fast cell boundary lookups
