@@ -15,3 +15,4 @@
 - [2025-09-22 17:45] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-09-25 20:04] feat: add export to plain text ASCII file functionality
 - [2025-09-28 16:56] feat: add export to plain text ASCII file functionality
+- [2025-09-29 15:14] perf: reduce stack depth by converting recursive solver to iterative
