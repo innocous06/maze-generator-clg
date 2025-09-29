@@ -175,3 +175,4 @@
 - [2025-09-29 11:40] fix: resolve memory leak on grid deallocation
 - [2025-09-29 12:00] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-09-29 12:07] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-29 14:18] docs: add algorithmic time complexity analysis in README
