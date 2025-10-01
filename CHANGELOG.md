@@ -187,3 +187,4 @@
 - [2025-10-01 12:17] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-01 12:28] docs: add algorithmic time complexity analysis in README
 - [2025-10-01 12:33] chore: add Makefile with clean, build, and test targets
+- [2025-10-01 13:33] fix: correct off-by-one boundary check in Kruskal's disjoint-set
