@@ -191,3 +191,4 @@
 - [2025-10-01 13:33] docs: add algorithmic time complexity analysis in README
 - [2025-10-01 14:49] feat: support custom width and height parameters from CLI args
 - [2025-10-01 14:51] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-01 16:08] perf: bitmask wall representation for fast cell boundary lookups
