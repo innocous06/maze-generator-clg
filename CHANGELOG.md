@@ -183,3 +183,4 @@
 - [2025-10-01 10:30] style: enforce K&R C indentation and format header guards
 - [2025-10-01 10:59] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-01 11:30] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-01 11:55] style: enforce K&R C indentation and format header guards
