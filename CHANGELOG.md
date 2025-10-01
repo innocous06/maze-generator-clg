@@ -185,3 +185,4 @@
 - [2025-10-01 11:30] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-01 11:55] style: enforce K&R C indentation and format header guards
 - [2025-10-01 12:17] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-01 12:28] docs: add algorithmic time complexity analysis in README
