@@ -195,3 +195,4 @@
 - [2025-10-01 16:28] feat: support custom width and height parameters from CLI args
 - [2025-10-01 18:02] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-01 19:36] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-01 21:56] fix: resolve memory leak on grid deallocation
