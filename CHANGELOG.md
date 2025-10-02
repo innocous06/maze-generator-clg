@@ -18,3 +18,4 @@
 - [2025-09-24 11:11] feat: export generated maze layout to plain text file (.txt)
 - [2025-09-27 17:06] feat: add A* heuristic search algorithm with Manhattan distance
 - [2025-09-29 14:27] fix: handle edge case with odd-dimensioned grid coordinates
+- [2025-10-02 12:36] perf: inline coordinate conversion macros for fast index calculations
