@@ -197,3 +197,4 @@
 - [2025-10-01 19:36] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-10-01 21:56] fix: resolve memory leak on grid deallocation
 - [2025-10-01 23:35] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-02 09:39] fix: resolve segmentation fault in recursive backtracker stack
