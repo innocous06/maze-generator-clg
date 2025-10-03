@@ -204,3 +204,4 @@
 - [2025-10-03 10:24] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-03 10:54] chore: add Makefile with clean, build, and test targets
 - [2025-10-03 13:25] feat: support custom width and height parameters from CLI args
+- [2025-10-03 15:24] feat: add export to plain text ASCII file functionality
