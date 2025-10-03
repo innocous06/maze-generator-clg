@@ -206,3 +206,4 @@
 - [2025-10-03 13:25] feat: support custom width and height parameters from CLI args
 - [2025-10-03 15:24] feat: add export to plain text ASCII file functionality
 - [2025-10-03 18:08] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-03 18:40] fix: resolve memory leak on grid deallocation
