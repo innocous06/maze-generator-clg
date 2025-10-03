@@ -202,3 +202,4 @@
 - [2025-10-02 14:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-02 19:34] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-03 10:24] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-03 10:54] chore: add Makefile with clean, build, and test targets
