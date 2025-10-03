@@ -17,3 +17,4 @@
 - [2025-09-28 16:56] feat: add export to plain text ASCII file functionality
 - [2025-09-29 15:14] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-30 15:35] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-03 16:14] feat: implement randomized Prim's maze generation algorithm
