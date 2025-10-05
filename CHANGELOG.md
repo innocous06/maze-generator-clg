@@ -18,3 +18,4 @@
 - [2025-09-29 15:14] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-09-30 15:35] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-10-03 16:14] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-05 19:17] refactor: optimize 2D grid memory allocation using flat 1D buffer
