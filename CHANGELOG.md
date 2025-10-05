@@ -208,3 +208,4 @@
 - [2025-10-03 18:08] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-10-03 18:40] fix: resolve memory leak on grid deallocation
 - [2025-10-03 19:09] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-05 14:32] fix: resolve segmentation fault in recursive backtracker stack
