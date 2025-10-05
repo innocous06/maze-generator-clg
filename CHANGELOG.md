@@ -211,3 +211,4 @@
 - [2025-10-05 14:32] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-10-05 17:52] feat: support custom width and height parameters from CLI args
 - [2025-10-05 19:09] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-05 19:43] fix: correct off-by-one boundary check in Kruskal's disjoint-set
