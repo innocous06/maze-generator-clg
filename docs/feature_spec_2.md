@@ -5,5 +5,3 @@ Replaced `int**` allocation with continuous 1D buffer to avoid pointer indirecti
 
 ## Benchmarks
 25% speedup on generation.
-
-<!-- cli validation -->
