@@ -20,3 +20,4 @@
 - [2025-09-29 14:27] fix: handle edge case with odd-dimensioned grid coordinates
 - [2025-10-02 12:36] perf: inline coordinate conversion macros for fast index calculations
 - [2025-10-04 15:30] refactor: extract wall rendering logic into dedicated visualizer helper
+- [2025-10-07 14:23] feat: add interactive step-by-step maze generation animation mode
