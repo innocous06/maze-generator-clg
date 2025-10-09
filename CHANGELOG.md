@@ -21,3 +21,4 @@
 - [2025-10-02 12:36] perf: inline coordinate conversion macros for fast index calculations
 - [2025-10-04 15:30] refactor: extract wall rendering logic into dedicated visualizer helper
 - [2025-10-07 14:23] feat: add interactive step-by-step maze generation animation mode
+- [2025-10-09 12:34] fix: prevent memory leak on early termination via SIGINT signal
