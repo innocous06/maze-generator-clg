@@ -220,3 +220,4 @@
 - [2025-10-08 21:20] feat: support custom width and height parameters from CLI args
 - [2025-10-11 18:48] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-11 19:12] docs: add algorithmic time complexity analysis in README
+- [2025-10-11 19:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
