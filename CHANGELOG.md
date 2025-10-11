@@ -218,3 +218,4 @@
 - [2025-10-06 21:46] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-08 10:48] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-08 21:20] feat: support custom width and height parameters from CLI args
+- [2025-10-11 18:48] feat: implement randomized Prim's maze generation algorithm
