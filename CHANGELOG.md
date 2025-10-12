@@ -225,3 +225,4 @@
 - [2025-10-12 14:21] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-12 15:46] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-12 17:22] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-12 18:54] refactor: optimize 2D grid memory allocation using flat 1D buffer
