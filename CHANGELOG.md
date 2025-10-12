@@ -223,3 +223,4 @@
 - [2025-10-11 19:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-10-12 11:57] test: add automated test runner script with randomized seed checks
 - [2025-10-12 14:21] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-12 15:46] refactor: extract wall rendering routines into visualizer.c
