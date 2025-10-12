@@ -224,3 +224,4 @@
 - [2025-10-12 11:57] test: add automated test runner script with randomized seed checks
 - [2025-10-12 14:21] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-12 15:46] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-12 17:22] feat: add ASCII terminal visualizer with step-by-step rendering
