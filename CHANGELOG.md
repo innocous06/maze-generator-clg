@@ -227,3 +227,4 @@
 - [2025-10-12 17:22] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-12 18:54] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-13 09:26] fix: resolve memory leak on grid deallocation
+- [2025-10-13 17:16] test: add unit tests for Dijkstra shortest-path maze solver
