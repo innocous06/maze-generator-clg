@@ -230,3 +230,4 @@
 - [2025-10-13 17:16] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-13 17:44] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-13 18:17] fix: resolve memory leak on grid deallocation
+- [2025-10-14 11:16] feat: add ASCII terminal visualizer with step-by-step rendering
