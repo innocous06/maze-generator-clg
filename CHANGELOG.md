@@ -23,3 +23,4 @@
 - [2025-10-07 14:23] feat: add interactive step-by-step maze generation animation mode
 - [2025-10-09 12:34] fix: prevent memory leak on early termination via SIGINT signal
 - [2025-10-12 19:20] test: add validation check for disconnected graph islands
+- [2025-10-15 19:23] docs: add ASCII architecture diagram and CLI usage examples in README
