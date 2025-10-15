@@ -232,3 +232,4 @@
 - [2025-10-13 18:17] fix: resolve memory leak on grid deallocation
 - [2025-10-14 11:16] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-14 16:02] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-15 16:09] docs: add algorithmic time complexity analysis in README
