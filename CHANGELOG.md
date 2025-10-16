@@ -20,3 +20,4 @@
 - [2025-10-03 16:14] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-05 19:17] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-14 12:21] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-16 10:48] feat: add ASCII terminal visualizer with step-by-step rendering
