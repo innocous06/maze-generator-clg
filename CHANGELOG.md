@@ -237,3 +237,4 @@
 - [2025-10-18 11:17] chore: add Makefile with clean, build, and test targets
 - [2025-10-18 11:35] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-18 15:38] feat: add export to plain text ASCII file functionality
+- [2025-10-18 16:58] test: add unit tests for Dijkstra shortest-path maze solver
