@@ -239,3 +239,4 @@
 - [2025-10-18 15:38] feat: add export to plain text ASCII file functionality
 - [2025-10-18 16:58] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-18 17:06] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-18 19:33] chore: add Makefile with clean, build, and test targets
