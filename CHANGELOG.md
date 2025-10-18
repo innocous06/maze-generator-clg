@@ -236,3 +236,4 @@
 - [2025-10-15 20:41] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-18 11:17] chore: add Makefile with clean, build, and test targets
 - [2025-10-18 11:35] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-18 15:38] feat: add export to plain text ASCII file functionality
