@@ -249,3 +249,4 @@
 - [2025-10-20 13:47] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-20 13:53] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-20 14:25] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-20 14:48] feat: support custom width and height parameters from CLI args
