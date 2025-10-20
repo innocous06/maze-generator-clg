@@ -246,3 +246,4 @@
 - [2025-10-20 12:27] test: add automated test runner script with randomized seed checks
 - [2025-10-20 12:51] test: add automated test runner script with randomized seed checks
 - [2025-10-20 12:53] chore: add Makefile with clean, build, and test targets
+- [2025-10-20 13:47] feat: add ASCII terminal visualizer with step-by-step rendering
