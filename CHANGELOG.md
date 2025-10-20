@@ -241,3 +241,4 @@
 - [2025-10-18 17:06] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-18 19:33] chore: add Makefile with clean, build, and test targets
 - [2025-10-20 10:33] test: add automated test runner script with randomized seed checks
+- [2025-10-20 10:51] style: enforce K&R C indentation and format header guards
