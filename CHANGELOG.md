@@ -254,3 +254,4 @@
 - [2025-10-20 15:57] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-20 16:13] feat: support custom width and height parameters from CLI args
 - [2025-10-20 16:35] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-20 18:49] fix: resolve segmentation fault in recursive backtracker stack
