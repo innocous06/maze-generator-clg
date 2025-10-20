@@ -250,3 +250,4 @@
 - [2025-10-20 13:53] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-20 14:25] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-20 14:48] feat: support custom width and height parameters from CLI args
+- [2025-10-20 15:48] test: add automated test runner script with randomized seed checks
