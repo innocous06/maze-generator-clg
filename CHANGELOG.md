@@ -25,3 +25,4 @@
 - [2025-10-12 19:20] test: add validation check for disconnected graph islands
 - [2025-10-15 19:23] docs: add ASCII architecture diagram and CLI usage examples in README
 - [2025-10-17 11:38] feat: add Wilson's loop-erased random walk maze generator
+- [2025-10-20 12:24] refactor: modularize solver interface with function pointer dispatch
