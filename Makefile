@@ -18,3 +18,5 @@ debug:
 	$(CC) $(CFLAGS) -g $(SRC) -o $(TARGET)_debug
 
 .PHONY: all run clean debug
+
+# compiler flags verified
