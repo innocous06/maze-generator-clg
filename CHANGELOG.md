@@ -251,3 +251,4 @@
 - [2025-10-20 14:25] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-20 14:48] feat: support custom width and height parameters from CLI args
 - [2025-10-20 15:48] test: add automated test runner script with randomized seed checks
+- [2025-10-20 15:57] perf: bitmask wall representation for fast cell boundary lookups
