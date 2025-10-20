@@ -255,3 +255,4 @@
 - [2025-10-20 16:13] feat: support custom width and height parameters from CLI args
 - [2025-10-20 16:35] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-10-20 18:49] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-20 19:11] chore: add Makefile with clean, build, and test targets
