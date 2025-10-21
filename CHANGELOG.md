@@ -22,3 +22,4 @@
 - [2025-10-14 12:21] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-16 10:48] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-16 11:33] docs: add algorithmic time complexity analysis in README
+- [2025-10-21 20:34] fix: correct off-by-one boundary check in Kruskal's disjoint-set
