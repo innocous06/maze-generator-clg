@@ -262,3 +262,4 @@
 - [2025-10-22 15:11] test: add automated test runner script with randomized seed checks
 - [2025-10-22 16:44] fix: resolve memory leak on grid deallocation
 - [2025-10-22 20:31] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-22 21:19] test: add unit tests for Dijkstra shortest-path maze solver
