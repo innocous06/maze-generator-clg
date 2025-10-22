@@ -259,3 +259,4 @@
 - [2025-10-20 19:39] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-10-20 20:46] style: enforce K&R C indentation and format header guards
 - [2025-10-21 16:45] style: enforce K&R C indentation and format header guards
+- [2025-10-22 15:11] test: add automated test runner script with randomized seed checks
