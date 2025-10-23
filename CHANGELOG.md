@@ -265,3 +265,4 @@
 - [2025-10-22 21:19] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-23 10:36] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-23 10:51] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-23 12:45] perf: bitmask wall representation for fast cell boundary lookups
