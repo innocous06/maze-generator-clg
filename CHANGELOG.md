@@ -267,3 +267,4 @@
 - [2025-10-23 10:51] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-23 12:45] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-23 15:29] test: add automated test runner script with randomized seed checks
+- [2025-10-23 16:20] chore: add Makefile with clean, build, and test targets
