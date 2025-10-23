@@ -263,3 +263,4 @@
 - [2025-10-22 16:44] fix: resolve memory leak on grid deallocation
 - [2025-10-22 20:31] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-10-22 21:19] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-23 10:36] perf: bitmask wall representation for fast cell boundary lookups
