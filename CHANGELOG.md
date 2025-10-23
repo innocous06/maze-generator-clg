@@ -268,3 +268,4 @@
 - [2025-10-23 12:45] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-23 15:29] test: add automated test runner script with randomized seed checks
 - [2025-10-23 16:20] chore: add Makefile with clean, build, and test targets
+- [2025-10-23 16:22] fix: correct off-by-one boundary check in Kruskal's disjoint-set
