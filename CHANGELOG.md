@@ -270,3 +270,4 @@
 - [2025-10-23 16:20] chore: add Makefile with clean, build, and test targets
 - [2025-10-23 16:22] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-10-23 18:52] fix: resolve memory leak on grid deallocation
+- [2025-10-23 19:15] refactor: extract wall rendering routines into visualizer.c
