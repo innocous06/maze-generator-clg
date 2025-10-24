@@ -276,3 +276,4 @@
 - [2025-10-24 12:16] feat: add export to plain text ASCII file functionality
 - [2025-10-24 13:19] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-24 13:51] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-24 14:36] refactor: extract wall rendering routines into visualizer.c
