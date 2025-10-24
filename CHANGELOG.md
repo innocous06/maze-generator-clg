@@ -273,3 +273,4 @@
 - [2025-10-23 19:15] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-23 21:55] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-24 09:07] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-24 12:16] feat: add export to plain text ASCII file functionality
