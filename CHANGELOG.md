@@ -23,3 +23,4 @@
 - [2025-10-16 10:48] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2025-10-16 11:33] docs: add algorithmic time complexity analysis in README
 - [2025-10-21 20:34] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-25 18:54] test: add unit tests for Dijkstra shortest-path maze solver
