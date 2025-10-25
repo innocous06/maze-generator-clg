@@ -111,7 +111,7 @@ gcc maze_generator.c -o maze
  # # # # # # # # # # # # # # # # # # # # # 
  # # # # # # # # # # # # # # # # # # # # # 
 
-Path length: 23 steps
+Path length: 40 steps
 ```
 
 ## 🛠️ Compilation Options
