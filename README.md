@@ -1,7 +1,9 @@
 # 🎮 Maze Generator and Solver
 
 An interactive C program that generates random mazes using recursive backtracking and solves them using BFS (Breadth-First Search). Features both automatic solving and manual gameplay modes!
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/innocous06/maze-generator)
+
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/innocous06/maze-generator-clg)
 
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
