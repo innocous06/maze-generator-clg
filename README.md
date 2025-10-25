@@ -2,7 +2,7 @@
 
 An interactive C program that generates random mazes using recursive backtracking and solves them using BFS (Breadth-First Search). Features both automatic solving and manual gameplay modes!
 
- [Run this online !!]([https://github.com/innocous06](https://dc236c57-a67c-467e-a3c5-4f21480af434-00-3kyafmd10iuvb.riker.replit.dev/))
+ [Run this online !!](https://dc236c57-a67c-467e-a3c5-4f21480af434-00-3kyafmd10iuvb.riker.replit.dev/)
 
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
