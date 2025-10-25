@@ -27,3 +27,4 @@
 - [2025-10-17 11:38] feat: add Wilson's loop-erased random walk maze generator
 - [2025-10-20 12:24] refactor: modularize solver interface with function pointer dispatch
 - [2025-10-22 18:21] fix: correct directional bitmask shift in west-wall carving
+- [2025-10-25 16:54] perf: reduce visualizer terminal redraw latency with double buffering
