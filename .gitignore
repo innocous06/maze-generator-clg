@@ -1,0 +1,19 @@
+# Compiled files
+*.o
+*.out
+maze
+maze_debug
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Executable
+a.out
