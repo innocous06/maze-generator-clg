@@ -277,3 +277,4 @@
 - [2025-10-24 13:19] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-10-24 13:51] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-10-24 14:36] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-26 15:35] perf: bitmask wall representation for fast cell boundary lookups
