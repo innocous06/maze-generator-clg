@@ -24,3 +24,4 @@
 - [2025-10-16 11:33] docs: add algorithmic time complexity analysis in README
 - [2025-10-21 20:34] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-10-25 18:54] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-26 10:08] test: add automated test runner script with randomized seed checks
