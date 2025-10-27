@@ -281,3 +281,4 @@
 - [2025-10-26 16:47] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-27 15:29] fix: resolve memory leak on grid deallocation
 - [2025-10-27 15:51] feat: add export to plain text ASCII file functionality
+- [2025-10-27 20:34] perf: reduce stack depth by converting recursive solver to iterative
