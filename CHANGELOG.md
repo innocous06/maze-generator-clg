@@ -279,3 +279,4 @@
 - [2025-10-24 14:36] refactor: extract wall rendering routines into visualizer.c
 - [2025-10-26 15:35] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-10-26 16:47] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-27 15:29] fix: resolve memory leak on grid deallocation
