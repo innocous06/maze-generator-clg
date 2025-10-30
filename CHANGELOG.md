@@ -288,3 +288,4 @@
 - [2025-10-30 16:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-10-30 17:22] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-10-30 18:59] style: enforce K&R C indentation and format header guards
+- [2025-10-30 19:47] perf: reduce stack depth by converting recursive solver to iterative
