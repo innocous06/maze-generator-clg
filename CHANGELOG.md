@@ -290,3 +290,4 @@
 - [2025-10-30 18:59] style: enforce K&R C indentation and format header guards
 - [2025-10-30 19:47] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-10-30 20:13] test: add automated test runner script with randomized seed checks
+- [2025-10-30 21:16] feat: add export to plain text ASCII file functionality
