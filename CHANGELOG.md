@@ -282,3 +282,4 @@
 - [2025-10-27 15:29] fix: resolve memory leak on grid deallocation
 - [2025-10-27 15:51] feat: add export to plain text ASCII file functionality
 - [2025-10-27 20:34] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-30 08:33] test: add unit tests for Dijkstra shortest-path maze solver
