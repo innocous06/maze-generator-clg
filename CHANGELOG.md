@@ -29,3 +29,4 @@
 - [2025-10-22 18:21] fix: correct directional bitmask shift in west-wall carving
 - [2025-10-25 16:54] perf: reduce visualizer terminal redraw latency with double buffering
 - [2025-10-27 16:20] feat: add difficulty metric based on branch-factor and dead-end count
+- [2025-10-30 16:11] chore: add GitHub Actions CI workflow for gcc and clang compilation
