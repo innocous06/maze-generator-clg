@@ -285,3 +285,4 @@
 - [2025-10-30 08:33] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-10-30 11:08] feat: implement randomized Prim's maze generation algorithm
 - [2025-10-30 16:03] test: add automated test runner script with randomized seed checks
+- [2025-10-30 16:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
