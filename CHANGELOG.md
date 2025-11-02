@@ -296,3 +296,4 @@
 - [2025-11-01 22:54] feat: add export to plain text ASCII file functionality
 - [2025-11-01 23:03] test: add automated test runner script with randomized seed checks
 - [2025-11-02 12:12] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-11-02 17:27] feat: add export to plain text ASCII file functionality
