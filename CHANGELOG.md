@@ -298,3 +298,4 @@
 - [2025-11-02 12:12] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-11-02 17:27] feat: add export to plain text ASCII file functionality
 - [2025-11-02 18:28] refactor: extract wall rendering routines into visualizer.c
+- [2025-11-02 22:09] feat: support custom width and height parameters from CLI args
