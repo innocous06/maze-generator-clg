@@ -302,3 +302,4 @@
 - [2025-11-03 09:22] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-11-03 17:45] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-11-03 18:50] feat: support custom width and height parameters from CLI args
+- [2025-11-03 19:25] feat: implement randomized Prim's maze generation algorithm
