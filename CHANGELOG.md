@@ -31,3 +31,4 @@
 - [2025-10-27 16:20] feat: add difficulty metric based on branch-factor and dead-end count
 - [2025-10-30 16:11] chore: add GitHub Actions CI workflow for gcc and clang compilation
 - [2025-11-02 17:51] fix: resolve compiler warning on unsigned integer comparison
+- [2025-11-04 15:39] feat: add support for circular and hexagonal grid topologies
