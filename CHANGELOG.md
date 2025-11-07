@@ -29,3 +29,4 @@
 - [2025-10-28 19:03] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-11-02 20:21] feat: implement randomized Prim's maze generation algorithm
 - [2025-11-03 11:49] feat: add export to plain text ASCII file functionality
+- [2025-11-07 12:39] refactor: extract wall rendering routines into visualizer.c
