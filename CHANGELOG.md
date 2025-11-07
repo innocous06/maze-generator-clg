@@ -304,3 +304,4 @@
 - [2025-11-03 18:50] feat: support custom width and height parameters from CLI args
 - [2025-11-03 19:25] feat: implement randomized Prim's maze generation algorithm
 - [2025-11-03 19:25] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-11-07 13:18] perf: reduce stack depth by converting recursive solver to iterative
