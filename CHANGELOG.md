@@ -313,3 +313,4 @@
 - [2025-11-08 14:38] fix: resolve memory leak on grid deallocation
 - [2025-11-08 15:03] perf: bitmask wall representation for fast cell boundary lookups
 - [2025-11-08 16:42] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-11-08 18:38] refactor: optimize 2D grid memory allocation using flat 1D buffer
