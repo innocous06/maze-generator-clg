@@ -305,3 +305,4 @@
 - [2025-11-03 19:25] feat: implement randomized Prim's maze generation algorithm
 - [2025-11-03 19:25] fix: resolve segmentation fault in recursive backtracker stack
 - [2025-11-07 13:18] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-11-08 07:19] test: add unit tests for Dijkstra shortest-path maze solver
