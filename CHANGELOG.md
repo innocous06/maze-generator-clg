@@ -307,3 +307,4 @@
 - [2025-11-07 13:18] perf: reduce stack depth by converting recursive solver to iterative
 - [2025-11-08 07:19] test: add unit tests for Dijkstra shortest-path maze solver
 - [2025-11-08 09:23] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-11-08 10:50] refactor: extract wall rendering routines into visualizer.c
