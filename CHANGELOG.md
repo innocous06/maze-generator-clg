@@ -311,3 +311,4 @@
 - [2025-11-08 10:59] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-11-08 14:04] style: enforce K&R C indentation and format header guards
 - [2025-11-08 14:38] fix: resolve memory leak on grid deallocation
+- [2025-11-08 15:03] perf: bitmask wall representation for fast cell boundary lookups
