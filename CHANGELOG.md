@@ -1,37 +1,342 @@
-# MAZE-GENERATOR-CLG Technical Architecture & Changelog
+# MAZE-GENERATOR-CLG Development Changelog
 
-- [2025-08-16 20:14] feat: initialize 2D grid matrix and cell state data structures
-- [2025-08-19 15:49] feat: implement randomized Prim's minimum spanning tree maze algorithm
-- [2025-08-22 13:10] feat: add recursive backtracking depth-first search generator
-- [2025-08-24 18:15] refactor: optimize grid memory allocation with single flat 1D buffer
-- [2025-08-27 18:09] fix: resolve segmentation fault in recursive solver call stack
-- [2025-08-29 14:20] feat: add ASCII terminal visualizer with ANSI escape color rendering
-- [2025-09-01 11:24] feat: implement Dijkstra shortest-path solver from entrance to exit
-- [2025-09-03 13:38] perf: bitmask wall representation for fast 4-neighbor boundary lookups
-- [2025-09-06 12:13] fix: correct off-by-one boundary check in Kruskal's disjoint-set forest
-- [2025-09-09 18:48] feat: add custom maze width and height CLI argument parsing
-- [2025-09-11 10:20] feat: add seedable pseudo-random number generator for reproducible mazes
-- [2025-09-14 16:19] test: add automated test runner for verifying maze solvability
-- [2025-09-16 19:27] chore: add Makefile with clean, debug, and release build targets
-- [2025-09-19 10:36] style: enforce K&R C formatting and header include guards
-- [2025-09-21 18:01] docs: write algorithmic complexity analysis and benchmark figures in README
-- [2025-09-24 11:11] feat: export generated maze layout to plain text file (.txt)
-- [2025-09-27 17:06] feat: add A* heuristic search algorithm with Manhattan distance
-- [2025-09-29 14:27] fix: handle edge case with odd-dimensioned grid coordinates
-- [2025-10-02 12:36] perf: inline coordinate conversion macros for fast index calculations
-- [2025-10-04 15:30] refactor: extract wall rendering logic into dedicated visualizer helper
-- [2025-10-07 14:23] feat: add interactive step-by-step maze generation animation mode
-- [2025-10-09 12:34] fix: prevent memory leak on early termination via SIGINT signal
-- [2025-10-12 19:20] test: add validation check for disconnected graph islands
-- [2025-10-15 19:23] docs: add ASCII architecture diagram and CLI usage examples in README
-- [2025-10-17 11:38] feat: add Wilson's loop-erased random walk maze generator
-- [2025-10-20 12:24] refactor: modularize solver interface with function pointer dispatch
-- [2025-10-22 18:21] fix: correct directional bitmask shift in west-wall carving
-- [2025-10-25 16:54] perf: reduce visualizer terminal redraw latency with double buffering
-- [2025-10-27 16:20] feat: add difficulty metric based on branch-factor and dead-end count
-- [2025-10-30 16:11] chore: add GitHub Actions CI workflow for gcc and clang compilation
-- [2025-11-02 17:51] fix: resolve compiler warning on unsigned integer comparison
-- [2025-11-04 15:39] feat: add support for circular and hexagonal grid topologies
-- [2025-11-07 16:39] test: add unit test suite for disjoint set cycle detection
-- [2025-11-09 12:47] refactor: separate core maze algorithms into static library libmaze.a
-- [2025-11-12 17:28] feat: add Braille unicode wall renderer for high-resolution terminal output
+- [2025-08-15 10:41] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-08-15 11:37] feat: support custom width and height parameters from CLI args
+- [2025-08-15 17:41] style: enforce K&R C indentation and format header guards
+- [2025-08-16 08:55] feat: implement randomized Prim's maze generation algorithm
+- [2025-08-16 10:23] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-08-16 10:51] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-16 14:17] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-08-16 17:02] feat: implement randomized Prim's maze generation algorithm
+- [2025-08-16 17:54] refactor: extract wall rendering routines into visualizer.c
+- [2025-08-16 21:32] refactor: extract wall rendering routines into visualizer.c
+- [2025-08-17 11:12] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-17 13:26] feat: support custom width and height parameters from CLI args
+- [2025-08-17 14:07] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-08-17 19:03] style: enforce K&R C indentation and format header guards
+- [2025-08-17 19:24] feat: support custom width and height parameters from CLI args
+- [2025-08-17 21:13] feat: add export to plain text ASCII file functionality
+- [2025-08-19 10:30] chore: add Makefile with clean, build, and test targets
+- [2025-08-19 10:52] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-08-19 11:45] fix: resolve memory leak on grid deallocation
+- [2025-08-19 13:21] fix: resolve memory leak on grid deallocation
+- [2025-08-19 18:56] feat: add export to plain text ASCII file functionality
+- [2025-08-20 12:42] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-20 18:16] style: enforce K&R C indentation and format header guards
+- [2025-08-21 11:08] test: add automated test runner script with randomized seed checks
+- [2025-08-21 13:48] style: enforce K&R C indentation and format header guards
+- [2025-08-21 21:43] fix: resolve memory leak on grid deallocation
+- [2025-08-23 12:33] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-08-23 12:38] test: add automated test runner script with randomized seed checks
+- [2025-08-23 17:22] test: add automated test runner script with randomized seed checks
+- [2025-08-23 17:50] feat: implement randomized Prim's maze generation algorithm
+- [2025-08-23 19:58] fix: resolve memory leak on grid deallocation
+- [2025-08-23 20:45] test: add automated test runner script with randomized seed checks
+- [2025-08-23 21:01] style: enforce K&R C indentation and format header guards
+- [2025-08-24 13:19] test: add automated test runner script with randomized seed checks
+- [2025-08-24 13:37] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-24 15:35] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-08-24 19:21] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-24 19:57] fix: resolve memory leak on grid deallocation
+- [2025-08-24 21:49] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-24 23:54] chore: add Makefile with clean, build, and test targets
+- [2025-08-25 17:00] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-08-26 10:01] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-08-26 13:48] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-08-26 14:52] docs: add algorithmic time complexity analysis in README
+- [2025-08-26 17:28] refactor: extract wall rendering routines into visualizer.c
+- [2025-08-26 18:53] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-26 21:58] feat: support custom width and height parameters from CLI args
+- [2025-08-27 09:42] docs: add algorithmic time complexity analysis in README
+- [2025-08-27 09:47] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-08-27 11:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-08-28 13:31] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-08-28 15:40] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-08-28 20:31] test: add automated test runner script with randomized seed checks
+- [2025-08-28 20:35] feat: implement randomized Prim's maze generation algorithm
+- [2025-08-28 21:02] docs: add algorithmic time complexity analysis in README
+- [2025-08-29 11:35] style: enforce K&R C indentation and format header guards
+- [2025-08-29 15:42] fix: resolve memory leak on grid deallocation
+- [2025-08-29 19:08] docs: add algorithmic time complexity analysis in README
+- [2025-08-31 09:19] style: enforce K&R C indentation and format header guards
+- [2025-09-02 09:50] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-02 20:24] test: add automated test runner script with randomized seed checks
+- [2025-09-04 09:25] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-04 10:08] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-04 11:23] fix: resolve memory leak on grid deallocation
+- [2025-09-04 15:18] style: enforce K&R C indentation and format header guards
+- [2025-09-04 16:30] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-04 16:33] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-04 18:27] docs: add algorithmic time complexity analysis in README
+- [2025-09-04 20:14] style: enforce K&R C indentation and format header guards
+- [2025-09-05 11:09] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-05 11:16] fix: resolve memory leak on grid deallocation
+- [2025-09-05 11:51] chore: add Makefile with clean, build, and test targets
+- [2025-09-05 13:26] docs: add algorithmic time complexity analysis in README
+- [2025-09-05 16:06] fix: resolve memory leak on grid deallocation
+- [2025-09-05 16:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-07 13:05] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-07 15:42] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-07 16:24] fix: resolve memory leak on grid deallocation
+- [2025-09-07 19:03] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-07 20:25] feat: support custom width and height parameters from CLI args
+- [2025-09-07 20:39] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-09 07:45] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-09 11:37] feat: add export to plain text ASCII file functionality
+- [2025-09-09 11:57] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-09 17:35] test: add automated test runner script with randomized seed checks
+- [2025-09-09 21:05] test: add automated test runner script with randomized seed checks
+- [2025-09-10 07:58] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-10 09:50] feat: add export to plain text ASCII file functionality
+- [2025-09-10 14:22] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-10 15:14] feat: add export to plain text ASCII file functionality
+- [2025-09-10 18:36] docs: add algorithmic time complexity analysis in README
+- [2025-09-10 20:58] feat: add export to plain text ASCII file functionality
+- [2025-09-10 21:51] test: add automated test runner script with randomized seed checks
+- [2025-09-11 11:54] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-11 12:17] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-11 12:58] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-11 14:09] docs: add algorithmic time complexity analysis in README
+- [2025-09-11 16:12] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-12 13:57] chore: add Makefile with clean, build, and test targets
+- [2025-09-12 19:52] fix: resolve memory leak on grid deallocation
+- [2025-09-13 12:53] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-13 18:27] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-13 19:10] test: add automated test runner script with randomized seed checks
+- [2025-09-13 19:35] feat: add export to plain text ASCII file functionality
+- [2025-09-14 09:57] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-14 11:40] chore: add Makefile with clean, build, and test targets
+- [2025-09-14 16:28] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-14 17:55] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-14 20:19] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-14 21:08] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-15 09:52] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-09-15 10:53] feat: support custom width and height parameters from CLI args
+- [2025-09-15 11:30] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-09-15 15:45] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-15 17:38] chore: add Makefile with clean, build, and test targets
+- [2025-09-15 19:20] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-16 16:01] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-17 10:49] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-17 10:51] test: add automated test runner script with randomized seed checks
+- [2025-09-17 11:43] feat: support custom width and height parameters from CLI args
+- [2025-09-17 12:13] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-09-17 13:31] feat: add export to plain text ASCII file functionality
+- [2025-09-17 16:04] feat: support custom width and height parameters from CLI args
+- [2025-09-17 17:04] feat: support custom width and height parameters from CLI args
+- [2025-09-17 17:35] fix: resolve memory leak on grid deallocation
+- [2025-09-17 18:13] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-17 19:33] test: add automated test runner script with randomized seed checks
+- [2025-09-17 19:49] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-17 20:12] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-18 09:52] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-18 10:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-18 12:15] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-20 19:28] docs: add algorithmic time complexity analysis in README
+- [2025-09-21 18:55] chore: add Makefile with clean, build, and test targets
+- [2025-09-22 09:07] fix: resolve memory leak on grid deallocation
+- [2025-09-22 12:05] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-22 13:23] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-22 14:07] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-22 15:10] feat: add export to plain text ASCII file functionality
+- [2025-09-22 17:21] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-22 21:42] fix: resolve memory leak on grid deallocation
+- [2025-09-23 10:02] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-23 12:58] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-23 15:23] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-09-24 13:50] chore: add Makefile with clean, build, and test targets
+- [2025-09-24 15:20] feat: support custom width and height parameters from CLI args
+- [2025-09-24 18:37] docs: add algorithmic time complexity analysis in README
+- [2025-09-24 20:06] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-24 21:13] fix: resolve memory leak on grid deallocation
+- [2025-09-24 23:08] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-25 21:06] style: enforce K&R C indentation and format header guards
+- [2025-09-25 21:43] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-26 12:55] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-26 13:06] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-26 15:39] docs: add algorithmic time complexity analysis in README
+- [2025-09-26 16:53] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-09-26 18:55] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-26 21:53] docs: add algorithmic time complexity analysis in README
+- [2025-09-26 22:50] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-27 09:39] fix: resolve memory leak on grid deallocation
+- [2025-09-27 11:25] fix: resolve memory leak on grid deallocation
+- [2025-09-27 11:44] style: enforce K&R C indentation and format header guards
+- [2025-09-27 13:04] style: enforce K&R C indentation and format header guards
+- [2025-09-27 13:26] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-27 14:26] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-09-27 17:08] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-09-27 17:15] docs: add algorithmic time complexity analysis in README
+- [2025-09-27 21:29] fix: resolve memory leak on grid deallocation
+- [2025-09-27 22:40] fix: resolve memory leak on grid deallocation
+- [2025-09-27 23:46] chore: add Makefile with clean, build, and test targets
+- [2025-09-29 10:43] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-29 10:49] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-09-29 11:40] fix: resolve memory leak on grid deallocation
+- [2025-09-29 12:00] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-09-29 12:07] refactor: extract wall rendering routines into visualizer.c
+- [2025-09-29 14:18] docs: add algorithmic time complexity analysis in README
+- [2025-09-29 15:31] style: enforce K&R C indentation and format header guards
+- [2025-09-29 21:58] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-09-30 15:04] test: add automated test runner script with randomized seed checks
+- [2025-10-01 10:24] style: enforce K&R C indentation and format header guards
+- [2025-10-01 10:30] style: enforce K&R C indentation and format header guards
+- [2025-10-01 10:59] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-01 11:30] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-01 11:55] style: enforce K&R C indentation and format header guards
+- [2025-10-01 12:17] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-01 12:28] docs: add algorithmic time complexity analysis in README
+- [2025-10-01 12:33] chore: add Makefile with clean, build, and test targets
+- [2025-10-01 13:33] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-01 13:33] docs: add algorithmic time complexity analysis in README
+- [2025-10-01 14:49] feat: support custom width and height parameters from CLI args
+- [2025-10-01 14:51] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-01 16:08] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-01 16:28] feat: support custom width and height parameters from CLI args
+- [2025-10-01 18:02] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-01 19:36] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-01 21:56] fix: resolve memory leak on grid deallocation
+- [2025-10-01 23:35] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-02 09:39] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-02 11:50] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-02 14:41] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-02 19:34] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-03 10:24] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-03 10:54] chore: add Makefile with clean, build, and test targets
+- [2025-10-03 13:25] feat: support custom width and height parameters from CLI args
+- [2025-10-03 15:24] feat: add export to plain text ASCII file functionality
+- [2025-10-03 18:08] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-03 18:40] fix: resolve memory leak on grid deallocation
+- [2025-10-03 19:09] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-05 14:32] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-05 17:52] feat: support custom width and height parameters from CLI args
+- [2025-10-05 19:09] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-05 19:43] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-05 19:51] fix: resolve memory leak on grid deallocation
+- [2025-10-06 12:41] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-06 19:43] style: enforce K&R C indentation and format header guards
+- [2025-10-06 21:46] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-08 10:48] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-08 21:20] feat: support custom width and height parameters from CLI args
+- [2025-10-11 18:48] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-11 19:12] docs: add algorithmic time complexity analysis in README
+- [2025-10-11 19:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-12 11:57] test: add automated test runner script with randomized seed checks
+- [2025-10-12 14:21] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-12 15:46] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-12 17:22] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-12 18:54] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-13 09:26] fix: resolve memory leak on grid deallocation
+- [2025-10-13 17:16] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-13 17:44] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-13 18:17] fix: resolve memory leak on grid deallocation
+- [2025-10-14 11:16] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-14 16:02] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-15 16:09] docs: add algorithmic time complexity analysis in README
+- [2025-10-15 20:41] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-18 11:17] chore: add Makefile with clean, build, and test targets
+- [2025-10-18 11:35] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-18 15:38] feat: add export to plain text ASCII file functionality
+- [2025-10-18 16:58] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-18 17:06] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-18 19:33] chore: add Makefile with clean, build, and test targets
+- [2025-10-20 10:33] test: add automated test runner script with randomized seed checks
+- [2025-10-20 10:51] style: enforce K&R C indentation and format header guards
+- [2025-10-20 11:10] docs: add algorithmic time complexity analysis in README
+- [2025-10-20 12:27] test: add automated test runner script with randomized seed checks
+- [2025-10-20 12:51] test: add automated test runner script with randomized seed checks
+- [2025-10-20 12:53] chore: add Makefile with clean, build, and test targets
+- [2025-10-20 13:47] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2025-10-20 13:53] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-20 14:25] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-20 14:48] feat: support custom width and height parameters from CLI args
+- [2025-10-20 15:48] test: add automated test runner script with randomized seed checks
+- [2025-10-20 15:57] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-20 16:13] feat: support custom width and height parameters from CLI args
+- [2025-10-20 16:35] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-20 18:49] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-20 19:11] chore: add Makefile with clean, build, and test targets
+- [2025-10-20 19:39] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-20 20:46] style: enforce K&R C indentation and format header guards
+- [2025-10-21 16:45] style: enforce K&R C indentation and format header guards
+- [2025-10-22 15:11] test: add automated test runner script with randomized seed checks
+- [2025-10-22 16:44] fix: resolve memory leak on grid deallocation
+- [2025-10-22 20:31] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-22 21:19] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-23 10:36] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-23 10:51] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-23 12:45] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-23 15:29] test: add automated test runner script with randomized seed checks
+- [2025-10-23 16:20] chore: add Makefile with clean, build, and test targets
+- [2025-10-23 16:22] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-23 18:52] fix: resolve memory leak on grid deallocation
+- [2025-10-23 19:15] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-23 21:55] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-24 09:07] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-24 12:16] feat: add export to plain text ASCII file functionality
+- [2025-10-24 13:19] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-10-24 13:51] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-24 14:36] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-26 15:35] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-10-26 16:47] refactor: extract wall rendering routines into visualizer.c
+- [2025-10-27 15:29] fix: resolve memory leak on grid deallocation
+- [2025-10-27 15:51] feat: add export to plain text ASCII file functionality
+- [2025-10-27 20:34] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-30 08:33] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-10-30 11:08] feat: implement randomized Prim's maze generation algorithm
+- [2025-10-30 16:03] test: add automated test runner script with randomized seed checks
+- [2025-10-30 16:39] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-10-30 17:22] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-10-30 18:59] style: enforce K&R C indentation and format header guards
+- [2025-10-30 19:47] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-10-30 20:13] test: add automated test runner script with randomized seed checks
+- [2025-10-30 21:16] feat: add export to plain text ASCII file functionality
+- [2025-11-01 21:35] style: enforce K&R C indentation and format header guards
+- [2025-11-01 21:50] feat: support custom width and height parameters from CLI args
+- [2025-11-01 22:54] feat: add export to plain text ASCII file functionality
+- [2025-11-01 23:03] test: add automated test runner script with randomized seed checks
+- [2025-11-02 12:12] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-11-02 17:27] feat: add export to plain text ASCII file functionality
+- [2025-11-02 18:28] refactor: extract wall rendering routines into visualizer.c
+- [2025-11-02 22:09] feat: support custom width and height parameters from CLI args
+- [2025-11-03 09:22] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-11-03 17:45] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-11-03 18:50] feat: support custom width and height parameters from CLI args
+- [2025-11-03 19:25] feat: implement randomized Prim's maze generation algorithm
+- [2025-11-03 19:25] fix: resolve segmentation fault in recursive backtracker stack
+- [2025-11-07 13:18] perf: reduce stack depth by converting recursive solver to iterative
+- [2025-11-08 07:19] test: add unit tests for Dijkstra shortest-path maze solver
+- [2025-11-08 09:23] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-11-08 10:50] refactor: extract wall rendering routines into visualizer.c
+- [2025-11-08 10:59] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-11-08 14:04] style: enforce K&R C indentation and format header guards
+- [2025-11-08 14:38] fix: resolve memory leak on grid deallocation
+- [2025-11-08 15:03] perf: bitmask wall representation for fast cell boundary lookups
+- [2025-11-08 16:42] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2025-11-08 18:38] refactor: optimize 2D grid memory allocation using flat 1D buffer
+- [2025-12-15 11:10] feat: add export to plain text ASCII file functionality
+- [2025-12-15 16:27] refactor: extract wall rendering routines into visualizer.c
+- [2026-01-03 20:04] chore: add Makefile with clean, build, and test targets
+- [2026-01-22 14:49] feat: add export to plain text ASCII file functionality
+- [2026-02-05 18:54] chore: add Makefile with clean, build, and test targets
+- [2026-02-05 19:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-02-19 20:50] style: enforce K&R C indentation and format header guards
+- [2026-03-08 18:31] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2026-03-28 11:01] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2026-03-28 14:48] feat: add export to plain text ASCII file functionality
+- [2026-04-07 13:51] test: add automated test runner script with randomized seed checks
+- [2026-04-07 15:56] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-04-07 19:36] feat: add export to plain text ASCII file functionality
+- [2026-05-08 16:36] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-05-08 19:17] test: add automated test runner script with randomized seed checks
+- [2026-05-08 20:44] test: add automated test runner script with randomized seed checks
+- [2026-05-18 13:06] refactor: extract wall rendering routines into visualizer.c
+- [2026-05-30 14:09] feat: implement randomized Prim's maze generation algorithm
+- [2026-06-17 20:03] feat: implement randomized Prim's maze generation algorithm
+- [2026-07-02 12:19] style: enforce K&R C indentation and format header guards
+- [2026-07-02 13:41] test: add automated test runner script with randomized seed checks
+- [2026-07-02 20:45] perf: bitmask wall representation for fast cell boundary lookups
+- [2026-07-17 11:31] fix: resolve segmentation fault in recursive backtracker stack
+- [2026-07-17 16:56] style: enforce K&R C indentation and format header guards
+- [2026-07-31 11:23] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-07-31 13:03] feat: add export to plain text ASCII file functionality
