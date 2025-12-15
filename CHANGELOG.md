@@ -315,3 +315,4 @@
 - [2025-11-08 16:42] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2025-11-08 18:38] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-12-15 11:10] feat: add export to plain text ASCII file functionality
+- [2025-12-15 16:27] refactor: extract wall rendering routines into visualizer.c
