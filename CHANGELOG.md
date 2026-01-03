@@ -316,3 +316,4 @@
 - [2025-11-08 18:38] refactor: optimize 2D grid memory allocation using flat 1D buffer
 - [2025-12-15 11:10] feat: add export to plain text ASCII file functionality
 - [2025-12-15 16:27] refactor: extract wall rendering routines into visualizer.c
+- [2026-01-03 20:04] chore: add Makefile with clean, build, and test targets
