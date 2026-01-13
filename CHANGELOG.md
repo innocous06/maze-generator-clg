@@ -31,3 +31,4 @@
 - [2025-11-03 11:49] feat: add export to plain text ASCII file functionality
 - [2025-11-07 12:39] refactor: extract wall rendering routines into visualizer.c
 - [2025-12-15 10:58] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2026-01-13 15:36] test: add automated test runner script with randomized seed checks
