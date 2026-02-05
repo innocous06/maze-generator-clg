@@ -318,3 +318,4 @@
 - [2025-12-15 16:27] refactor: extract wall rendering routines into visualizer.c
 - [2026-01-03 20:04] chore: add Makefile with clean, build, and test targets
 - [2026-01-22 14:49] feat: add export to plain text ASCII file functionality
+- [2026-02-05 18:54] chore: add Makefile with clean, build, and test targets
