@@ -320,3 +320,4 @@
 - [2026-01-22 14:49] feat: add export to plain text ASCII file functionality
 - [2026-02-05 18:54] chore: add Makefile with clean, build, and test targets
 - [2026-02-05 19:38] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-02-19 20:50] style: enforce K&R C indentation and format header guards
