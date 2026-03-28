@@ -322,3 +322,4 @@
 - [2026-02-05 19:38] perf: reduce stack depth by converting recursive solver to iterative
 - [2026-02-19 20:50] style: enforce K&R C indentation and format header guards
 - [2026-03-08 18:31] fix: correct off-by-one boundary check in Kruskal's disjoint-set
+- [2026-03-28 11:01] fix: correct off-by-one boundary check in Kruskal's disjoint-set
