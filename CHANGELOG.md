@@ -33,3 +33,4 @@
 - [2025-12-15 10:58] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2026-01-13 15:36] test: add automated test runner script with randomized seed checks
 - [2026-02-22 12:19] feat: add ASCII terminal visualizer with step-by-step rendering
+- [2026-03-31 15:37] fix: resolve segmentation fault in recursive backtracker stack
