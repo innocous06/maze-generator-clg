@@ -324,3 +324,4 @@
 - [2026-03-08 18:31] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2026-03-28 11:01] fix: correct off-by-one boundary check in Kruskal's disjoint-set
 - [2026-03-28 14:48] feat: add export to plain text ASCII file functionality
+- [2026-04-07 13:51] test: add automated test runner script with randomized seed checks
