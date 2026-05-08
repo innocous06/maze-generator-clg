@@ -328,3 +328,4 @@
 - [2026-04-07 15:56] perf: reduce stack depth by converting recursive solver to iterative
 - [2026-04-07 19:36] feat: add export to plain text ASCII file functionality
 - [2026-05-08 16:36] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-05-08 19:17] test: add automated test runner script with randomized seed checks
