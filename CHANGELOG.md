@@ -330,3 +330,4 @@
 - [2026-05-08 16:36] perf: reduce stack depth by converting recursive solver to iterative
 - [2026-05-08 19:17] test: add automated test runner script with randomized seed checks
 - [2026-05-08 20:44] test: add automated test runner script with randomized seed checks
+- [2026-05-18 13:06] refactor: extract wall rendering routines into visualizer.c
