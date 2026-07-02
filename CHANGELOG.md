@@ -333,3 +333,4 @@
 - [2026-05-18 13:06] refactor: extract wall rendering routines into visualizer.c
 - [2026-05-30 14:09] feat: implement randomized Prim's maze generation algorithm
 - [2026-06-17 20:03] feat: implement randomized Prim's maze generation algorithm
+- [2026-07-02 12:19] style: enforce K&R C indentation and format header guards
