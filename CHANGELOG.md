@@ -335,3 +335,4 @@
 - [2026-06-17 20:03] feat: implement randomized Prim's maze generation algorithm
 - [2026-07-02 12:19] style: enforce K&R C indentation and format header guards
 - [2026-07-02 13:41] test: add automated test runner script with randomized seed checks
+- [2026-07-02 20:45] perf: bitmask wall representation for fast cell boundary lookups
