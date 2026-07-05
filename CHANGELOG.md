@@ -35,3 +35,4 @@
 - [2026-02-22 12:19] feat: add ASCII terminal visualizer with step-by-step rendering
 - [2026-03-31 15:37] fix: resolve segmentation fault in recursive backtracker stack
 - [2026-06-01 15:14] perf: bitmask wall representation for fast cell boundary lookups
+- [2026-07-05 17:55] fix: correct off-by-one boundary check in Kruskal's disjoint-set
