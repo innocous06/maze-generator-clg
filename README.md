@@ -1,164 +1,47 @@
-# 🎮 Maze Generator and Solver
+# maze-generator-clg
 
-An interactive C program that generates random mazes using recursive backtracking and solves them using BFS (Breadth-First Search). Features both automatic solving and manual gameplay modes!
+A C program that generates random mazes using recursive backtracking and solves them using breadth-first search. Supports both automatic solving and manual navigation modes. Written to the C99 standard with no external dependencies.
 
- [Run this online !!](https://dc236c57-a67c-467e-a3c5-4f21480af434-00-3kyafmd10iuvb.riker.replit.dev/)
+## Requirements
 
-![C](https://img.shields.io/badge/language-C-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)
-
-## ✨ Features
-
-- 🎲 **Random Maze Generation** - Uses recursive backtracking algorithm with added complexity
-- 🧭 **Automatic Solver** - Finds shortest path using BFS algorithm
-- 🎮 **Manual Mode** - Play through the maze yourself with WASD controls
-- 📊 **Multiple Sizes** - Generate mazes from 11×11 up to 49×49
-- 🎯 **Path Visualization** - See the optimal solution highlighted
-- 📈 **Move Tracking** - Counts your moves in manual mode
-
-## 🚀 Quick Start
-
-### Run Online (No Installation Required!)
-
-**GitHub Codespaces:**
-1. Click the green **Code** button above
-2. Select **Codespaces** tab
-3. Click **Create codespace on main**
-4. In the terminal, run:
-   ```bash
-   make run
-   ```
-
-### Local Installation
-
-**Prerequisites:**
 - GCC compiler
-- Make (optional, for easier compilation)
+- Make (optional)
 
-**Compile and Run:**
-```bash
+## Installation
+
+```sh
+git clone https://github.com/innocous06/maze-generator-clg.git
+cd maze-generator-clg
+```
+
+## Usage
+
+```sh
 # Using Make
 make
 ./maze
 
-# Or compile manually
-gcc maze_generator.c -o maze
+# Manual compile
+gcc -O2 maze_generator.c -o maze
 ./maze
 ```
 
-## 🎯 How to Use
+From the main menu:
 
-### Main Menu Options
+1. Generate a maze — specify dimensions (11 to 49, odd numbers only)
+2. Display the current maze
+3. Find shortest path — BFS solve with path visualised as `*`
+4. Manual mode — navigate with W/A/S/D keys, Q to quit
+5. Quick demo — generates a 21x21 maze and shows solution
 
-1. **Generate Maze** - Create a new random maze (11-49 rows/cols)
-2. **Display Maze** - Show the current maze
-3. **Find Shortest Path** - Automatically solve and display solution
-4. **Manual Mode** - Play through the maze yourself
-5. **Quick Demo** - Generate a 21×21 maze and show solution
-6. **Exit** - Quit the program
+## License
 
-### Manual Mode Controls
+MIT License
 
-- **W** - Move Up ⬆️
-- **S** - Move Down ⬇️
-- **A** - Move Left ⬅️
-- **D** - Move Right ➡️
-- **Q** - Quit to menu
+Copyright (c) 2024 innocous06
 
-### Maze Symbols
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-- `S` - Start position 🏁
-- `E` - End position 🎯
-- `#` - Wall 🧱
-- ` ` - Path (space)
-- `*` - Solution path ⭐
-- `@` - Your position (manual mode) 🎮
-- `.` - Visited cells (manual mode) 👣
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## 🧮 Algorithms
-
-### Maze Generation
-- **Algorithm:** Randomized Depth-First Search (Recursive Backtracking)
-- **Enhancement:** Adds extra paths to increase complexity
-- **Start/End:** Positioned to maximize distance
-
-### Pathfinding
-- **Algorithm:** Breadth-First Search (BFS)
-- **Guarantee:** Always finds the shortest path
-- **Visualization:** Marks solution with `*` characters
-
-## 📸 Example Output
-
-```
- # # # # # # # # # # # # # # # # # # # # # 
- # # # # # # # # # # # # # # # # # # # # # 
- # # S #                       #       # # 
- # #   # # #   # # #   # # #   #   # # # # 
- # #       #       #   #       #       # # 
- # # # #   #   #   #   #   # # # # #   # # 
- # #       #   #   #   #       #       # # 
- # #   # # # # #   #   # # #   #   # # # # 
- # #                           #       # # 
- # # #   # # # # # #   #   #   #   #   # # 
- # #               #   #               # # 
- # #   # # #   #       # # #   # # #   # # 
- # #   #       #   #       #   #   #   # # 
- # #   #   # # # # # # #   #   #   #   # # 
- # #   #                   #   #       # # 
- # #   # # # # # # # # # # #   #   # # # # 
- # #                           #   #   # # 
- # # # # # # # # # # # # # # #     #   # # 
- # #                                 E # # 
- # # # # # # # # # # # # # # # # # # # # # 
- # # # # # # # # # # # # # # # # # # # # # 
-
-Path length: 40 steps
-```
-
-## 🛠️ Compilation Options
-
-```bash
-# Debug mode with symbols
-gcc -g maze_generator.c -o maze_debug
-
-# Optimized build
-gcc -O2 maze_generator.c -o maze
-
-# With warnings
-gcc -Wall -Wextra maze_generator.c -o maze
-```
-
-## 📋 Technical Details
-
-- **Language:** C (C99 standard)
-- **Maximum Size:** 50×50 grid
-- **Memory:** Static allocation for efficiency
-- **Dependencies:** Standard C library only
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs 🐛
-- Suggest features 💡
-- Submit pull requests 🔧
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-**innocous06**
-- GitHub: [@innocous06](https://github.com/innocous06)
-- Location: Himalayas 🏔️
-
-## 🌟 Acknowledgments
-
-- Maze generation inspired by classic recursive backtracking algorithms
-- BFS pathfinding for optimal solution finding
-- Built for educational purposes and fun! 🎓
-
----
-
-⭐ **Star this repo if you find it helpful!**
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
