@@ -339,3 +339,4 @@
 - [2026-07-17 11:31] fix: resolve segmentation fault in recursive backtracker stack
 - [2026-07-17 16:56] style: enforce K&R C indentation and format header guards
 - [2026-07-31 11:23] perf: reduce stack depth by converting recursive solver to iterative
+- [2026-07-31 13:03] feat: add export to plain text ASCII file functionality
