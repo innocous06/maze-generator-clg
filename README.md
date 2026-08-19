@@ -32,4 +32,4 @@ gcc -O2 -std=c99 maze_generator.c -o maze_generator
 
 Released under the [MIT License](LICENSE).
 
-Copyright (c) 2026 innocous. All rights reserved.
+Copyright (c) 2026 innocous06. All rights reserved.
